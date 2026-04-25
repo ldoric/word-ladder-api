@@ -1,0 +1,10 @@
+# Checkpoints (add weights locally or in CI; do not commit large blobs)
+**/*.bin
+**/*.safetensors
+**/*.pt
+!**/.gitkeep
+__pycache__/
+.venv/
+venv/
+.env
+.env.*
